@@ -96,7 +96,7 @@ public class Blew {
 	}
 
 	/**
-	 * <h1>public {@link Map} getAdress()</h1>
+	 * <h1>public {@link Map} getPairedDevices()</h1>
 	 * 
 	 * <p>
 	 * Returns all addresses of all paired devices. The Key value is the device
@@ -105,7 +105,7 @@ public class Blew {
 	 * 
 	 * @return a map with the name and address of the device
 	 */
-	public Map<String, String> getAddress() {
+	public Map<String, String> getPairedDevices() {
 		if (myBluetooth.isEnabled()) {
 			// Intent getVisible = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
 			/// startActivityForResult(getVisible, 0);
